@@ -1,4 +1,5 @@
-!/bin/bash
+#!/bin/bash
+Delivery=`pwd`
 echo “running command from” $Delivery
 cd $Delivery
 git add .
